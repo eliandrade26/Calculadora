@@ -1,0 +1,32 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.main {
+display: block;
+margin: auto;
+align-items: center;
+width: 50%;
+margin-top: 20%;
+}
+.button{
+    display: flex;
+    text-align:  center;
+    
+}
+button{
+    
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+
+textarea{
+    width: 40%;
+    resize: both;
+}
