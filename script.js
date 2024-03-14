@@ -1,8 +1,8 @@
-const keynumbers = array.from(document.querySelectorAll("numbers"));
+const keynumbers = Array.from(document.querySelectorAll("number"));
 const display = document.querySelector("display");
-const keyOperators = array.from(querySelectorAll("Operations"));
+const keyOperators = Array.from(querySelectorAll("Operations"));
 
-keynumbers.array.forEach(keynumbers => {
-    keynumbers.addEventListener ('click',insertnumber)
+keynumbers.Array.forEach(number=> {
+    number.addEventListener ('click',insertnumber)
     
 });
