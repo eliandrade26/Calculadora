@@ -38,10 +38,8 @@ body {
     font-size: 30px;
 }
 
-.ce,
-.por,
-.c,
-.igual {
+.operations
+ {
     padding: 10px;
     border: 1px solid #ccc;
     width: calc(30%);
@@ -62,5 +60,6 @@ input {
     margin-bottom: 20px;
     height: 60px;
     width: 100%;
+    font-size: 20px;
 
 }

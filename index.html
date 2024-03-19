@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
-
 <body>
-    
     <div class="calculator">
-        
         <div class="screen">
-            <input type="text" readonly >
-            
+            <input type="text" readonly class="display">
             <div class="buttons">
-                <button class="por">%</button>
-                <button class="ce">CE</button>
-                <button class="c">C</button>
-                <button class="igual">=</button>
+                <button class="operations">%</button>
+                <button class="operations">CE</button>
+                <button class="operations">C</button>
+                <button class="operations">=</button>
             </div>
         </div>
         <div class="keys">
@@ -28,30 +21,28 @@
                 <button class="number">1</button>
                 <button class="number">2</button>
                 <button class="number">3</button>
-                <button class="">/</button>
+                <button class="operations">/</button>
             </div>
             <div class="row">
                 <button class="number">4</button>
                 <button class="number">5</button>
                 <button class="number">6</button>
-                <button>*</button>
+                <button class="operations">*</button>
             </div>
             <div class="row">
                 <button class="number">7</button>
                 <button class="number">8</button>
                 <button class="number">9</button>
-                <button>-</button>
+                <button class="operations">-</button>
             </div>
-            
         </div>
         <div class="footer">
-            <button>'</button>
-            <button>0</button>
-            <button>,</button>
-            <button>+</button>
+            <button class="number">'</button>
+            <button class="number">0</button>
+            <button class="number">,</button>
+            <button class="operations">+</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
-
-<script src="script.js"></script>
 </html>
